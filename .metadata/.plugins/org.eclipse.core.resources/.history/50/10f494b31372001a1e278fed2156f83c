@@ -1,0 +1,40 @@
+package date_27_03_2020;
+
+public class RandomBinaryTree {
+	
+	public static void main(String[] args) {
+		RandomBinaryTreeNode root=new RandomBinaryTreeNode(10);
+		root.leftNode=new RandomBinaryTreeNode(20);
+		root.rightNode=new RandomBinaryTreeNode(30);
+		root.leftNode.leftNode=new RandomBinaryTreeNode(40);
+		root.leftNode.rightNode=new RandomBinaryTreeNode(50);
+		root.rightNode.leftNode=new RandomBinaryTreeNode(60);
+		root.rightNode.rightNode=new RandomBinaryTreeNode(70);
+		
+		insertChildrenCount(root);
+		
+	}
+	
+	private static void insertChildrenCount(RandomBinaryTreeNode node) {
+		if(node==null) {
+			return;
+		}
+		
+	}
+
+}
+
+class RandomBinaryTreeNode{
+	
+	int data;
+	RandomBinaryTreeNode leftNode;
+	RandomBinaryTreeNode rightNode;
+	int childrenCount;
+	
+	public RandomBinaryTreeNode(int data) {
+		this.data=data;
+		this.leftNode=null;
+		this.rightNode=null;
+		this.childrenCount=0;
+	}
+}

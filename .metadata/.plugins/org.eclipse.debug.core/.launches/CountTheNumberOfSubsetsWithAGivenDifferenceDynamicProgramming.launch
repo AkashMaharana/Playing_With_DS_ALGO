@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Dynamic Programming Adithya Verma Knapsack Variations/src/countTheNumberOfSubsetWIthAGivenDifference/CountTheNumberOfSubsetsWithAGivenDifferenceDynamicProgramming.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="countTheNumberOfSubsetWIthAGivenDifference.CountTheNumberOfSubsetsWithAGivenDifferenceDynamicProgramming"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Dynamic Programming Adithya Verma Knapsack Variations"/>
+</launchConfiguration>

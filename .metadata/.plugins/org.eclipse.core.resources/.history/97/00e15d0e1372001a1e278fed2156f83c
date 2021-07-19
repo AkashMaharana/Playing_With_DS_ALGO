@@ -1,0 +1,17 @@
+package date_27_03_2020;
+
+import common.BinaryTreeNode;
+
+public class RandomBinaryTree {
+	
+	public static void main(String[] args) {
+		BinaryTreeNode root=new BinaryTreeNode(10);
+		root.setLeftNode(new BinaryTreeNode(20));
+		root.setRightNode(new BinaryTreeNode(30));
+		root.getLeftNode().setLeftNode(new BinaryTreeNode(40));
+		root.getLeftNode().setRightNode(new BinaryTreeNode(50));
+		root.getRightNode().setLeftNode(new BinaryTreeNode(60));
+		root.getRightNode().setRightNode(new BinaryTreeNode(70));
+	}
+
+}

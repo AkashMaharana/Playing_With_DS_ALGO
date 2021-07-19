@@ -1,0 +1,10 @@
+package byteByByte;
+
+public class StockSpanProblem {
+	
+	public static void main(String[] args) {
+		int input[] = { 10, 4, 5, 90, 120, 80 };
+		printSpanOfStocks(input);
+	}
+
+}

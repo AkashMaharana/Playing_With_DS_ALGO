@@ -1,0 +1,33 @@
+package arrays;
+
+public class SquaresOfASortedArray {
+	
+	public static void main(String[] args) {
+		int[] input= {-12,-3,2,3,11};
+		squaresOfSortedArray(input);
+	}
+	
+	private static void squaresOfSortedArray(int[] input) {
+		if(input[0]>=0) {
+			for(int i=0;i<input.length;i++) {
+				input[i]=input[i]*input[i];
+			}
+		}else {
+			int i=0;
+			int j=input.length-1;
+			while(i!=j) {
+				if(Math.abs(i)>Math.abs(j)) {
+					int temp=input[i];
+					input[i]=input[j];
+					input[j]=temp;
+					input[j]=Math.abs(input[j]);
+					input[i]=-input[i];
+				}
+				else {
+					
+				}
+			}
+		}
+	}
+
+}

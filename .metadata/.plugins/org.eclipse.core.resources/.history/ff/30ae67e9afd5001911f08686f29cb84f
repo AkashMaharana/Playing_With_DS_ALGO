@@ -1,0 +1,9 @@
+package com.akash.maharana.linkedList;
+
+public class LinkedListIsPallindromeOrNot {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

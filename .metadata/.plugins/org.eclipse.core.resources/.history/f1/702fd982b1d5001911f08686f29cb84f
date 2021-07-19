@@ -1,0 +1,59 @@
+package com.akash.maharana.linkedList;
+
+public class LinkedListIsPallindromeOrNot {
+	
+	public static void main(String[] args) {
+		SinglyLinkedList l=new SinglyLinkedList();
+		l.insertNode(10);
+		l.insertNode(20);
+		l.insertNode(30);
+		l.insertNode(20);
+		l.insertNode(10);
+	}
+
+}
+
+class SinglyLinkedListNode{
+	
+	SinglyLinkedListNode next;
+	int data;
+	
+	
+	public SinglyLinkedListNode(int data){
+		this.data=data;
+		this.next=null;
+	}
+}
+
+class SinglyLinkedList{
+	
+	SinglyLinkedListNode head;
+	SinglyLinkedListNode tail;
+	
+	public SinglyLinkedList(){
+		this.head=null;
+		this.tail=null;
+	}
+	
+	public void insertNode(int data){
+		if(this.head==null){
+			this.head=new SinglyLinkedListNode(data);
+		}
+		else{
+			this.tail.next=new SinglyLinkedListNode(data);
+		}
+	}
+	
+	public void traverseList(){
+		if(this.head==null){
+			return;
+		}
+		else{
+			SinglyLinkedListNode node=this.head;
+			while(node!=null){
+				System.out.print(node.data+"->");
+				node=node.next;
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+package maximumSizeSubSquareMatrix;
+
+public class MaximumSizeSubSquareMatrix {
+	
+	public void maximumSizeSubSquareMatrix(int[][] inputMatrix){
+		
+	}
+
+}

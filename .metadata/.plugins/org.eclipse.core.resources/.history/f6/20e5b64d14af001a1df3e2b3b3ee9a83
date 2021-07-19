@@ -1,0 +1,9 @@
+package arrays;
+
+public class SquaresOfASortedArray {
+	
+	public static void main(String[] args) {
+		int[] input= {-12,-3,2,3,11};
+	}
+
+}

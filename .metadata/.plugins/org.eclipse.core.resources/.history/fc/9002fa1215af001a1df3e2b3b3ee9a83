@@ -1,0 +1,16 @@
+package arrays;
+
+public class SquaresOfASortedArray {
+	
+	public static void main(String[] args) {
+		int[] input= {-12,-3,2,3,11};
+		squaresOfSortedArray(input);
+	}
+	
+	private static void squaresOfSortedArray(int[] input) {
+		int i=0;
+		int j=input.length-1;
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.akash.maharana.linkedList;
+
+public class LinkedListIsPallindromeOrNot {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+class SinglyLinkedList{
+	
+	SinglyLinkedList next;
+	int data;
+	
+	
+	public SinglyLinkedList(int data){
+		this.data=data;
+		this.next=null;
+	}
+}

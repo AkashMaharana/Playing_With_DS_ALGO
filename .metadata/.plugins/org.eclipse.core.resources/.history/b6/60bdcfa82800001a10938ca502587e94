@@ -1,0 +1,11 @@
+package fibonacciSeries;
+
+public class Application {
+	
+	public static void main(String[] args) {
+		Fibonacci fibonacci=new Fibonacci();
+		System.out.println(fibonacci.fibonacciDP(4));
+	}
+
+
+}

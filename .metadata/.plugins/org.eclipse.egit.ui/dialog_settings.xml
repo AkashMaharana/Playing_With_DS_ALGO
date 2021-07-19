@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="2" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
+	<list key="EGit.KnownHosts">
+		<item value="github.com"/>
+		<item value="git.eclipse.org"/>
+		<item value="bitbucket.org"/>
+		<item value="git-rba.hackerrank.com"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://git-rba.hackerrank.com/git/2b65c057-e195-40b3-9358-646aadae2614"/>
+		<item value="https://git-rba.hackerrank.com/git/60d9c401-e68d-4805-a2cd-271670758d3d"/>
+		<item value="https://git-rba.hackerrank.com/git/ff9702d3-dd8a-48ff-aa77-959d012fe835"/>
+		<item value="https://git-rba.hackerrank.com/git/18be0026-9c5b-4a25-b5c4-b74a13171285"/>
+		<item value="https://github.com/AkashMaharana/Data_Structures_Basic_To_Avance.git"/>
+	</list>
+	<section name="GitImportWizard">
+	</section>
+	<section name="org.eclipse.egit.ui.internal.pull.PullResultDialog.dialogBounds">
+		<item value="577" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="400" key="DIALOG_HEIGHT"/>
+		<item value="403" key="DIALOG_X_ORIGIN"/>
+		<item value="106" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

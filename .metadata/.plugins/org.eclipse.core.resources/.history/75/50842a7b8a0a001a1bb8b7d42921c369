@@ -1,0 +1,11 @@
+package subsetSumProblem;
+
+public class Application {
+	
+	public static void main(String[] args) {
+		SubsetSumProblem ss=new SubsetSumProblem();
+		int[] inputArray={2,3,7,8,10};
+		ss.subsetSumProblem(inputArray, 8);
+	}
+
+}
