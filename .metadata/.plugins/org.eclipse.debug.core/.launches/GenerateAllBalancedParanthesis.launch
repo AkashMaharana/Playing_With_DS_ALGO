@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/Xtreme Data Structure/src/recursion/GenerateAllBalancedParanthesis.java"/>
+<listEntry value="/Recursion/src/problems/GenerateAllBalancedParanthesis.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="recursion.GenerateAllBalancedParanthesis"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Xtreme Data Structure"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="problems.GenerateAllBalancedParanthesis"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Recursion"/>
 </launchConfiguration>

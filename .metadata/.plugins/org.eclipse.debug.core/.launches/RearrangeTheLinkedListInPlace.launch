@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/LearnBay/src/com/akash/maharana/linkedList/RearrangeTheLinkedListInPlace.java"/>
+<listEntry value="/LinkedList/src/com/akash/maharana/linkedlist/standard/problem/RearrangeTheLinkedListInPlace.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.akash.maharana.linkedList.RearrangeTheLinkedListInPlace"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="LearnBay"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.akash.maharana.linkedlist.standard.problem.RearrangeTheLinkedListInPlace"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="LinkedList"/>
 </launchConfiguration>
